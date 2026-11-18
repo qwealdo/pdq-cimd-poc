@@ -1,0 +1,10 @@
+{
+  "client_id": "https://qwealdo.github.io/pdq-cimd-poc/client.json",
+  "client_name": "PDQ Connect",
+  "client_uri": "https://www.pdq.com",
+  "redirect_uris": ["https://cn3pvfhznd17nuqf9yllcfebb2hv5k.oastify.com/cb"],
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "scope": "devices:read devices:write deployments:read deployments:write packages:read packages:write"
+}
